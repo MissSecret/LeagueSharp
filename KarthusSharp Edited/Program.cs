@@ -15,7 +15,7 @@ namespace KarthusSharp
 
         private static void Game_OnGameLoad(EventArgs args)
         {
-            Helper = new Helper();
+            Helper = new Helper();//Wtf
             new Karthus();
         }
     }
