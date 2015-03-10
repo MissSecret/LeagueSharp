@@ -96,7 +96,7 @@ namespace KarthusSharp
             _spellE = new Spell(SpellSlot.E, 505);
             _spellR = new Spell(SpellSlot.R, 20000f);
 
-            _spellQ.SetSkillshot(1f, 160, float.MaxValue, false, SkillshotType.SkillshotCircle);
+            _spellQ.SetSkillshot(625, 160, int.MaxValue, false, SkillshotType.SkillshotCircle);
             _spellW.SetSkillshot(.5f, 70, float.MaxValue, false, SkillshotType.SkillshotCircle);
             _spellE.SetSkillshot(1f, 505, float.MaxValue, false, SkillshotType.SkillshotCircle);
             _spellR.SetSkillshot(3f, float.MaxValue, float.MaxValue, false, SkillshotType.SkillshotCircle);
@@ -105,7 +105,7 @@ namespace KarthusSharp
             Game.OnGameUpdate += Game_OnGameUpdate;
             Orbwalking.BeforeAttack += Orbwalking_BeforeAttack;
 
-            Game.PrintChat("<font color=\"#1eff00\">KarthusSharp by Beaving</font> - <font color=\"#00BFFF\">Loaded</font>");
+            Game.PrintChat("<font color=\"#1eff00\">KarthusSharp by Beaving</font> - <font color=\"#00BFFF\">Loaded (Edited by WujuSan)</font>");
         }
 
         void Game_OnGameUpdate(EventArgs args)

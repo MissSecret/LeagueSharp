@@ -1,12 +1,12 @@
-C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp\bin\Release\KarthusSharp.exe.config
-C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp\bin\Release\KarthusSharp.exe
-C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp\bin\Release\KarthusSharp.pdb
-C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp\bin\Release\LeagueSharp.Common.dll
-C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp\bin\Release\LeagueSharp.dll
-C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp\bin\Release\SharpDX.dll
-C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp\bin\Release\SharpDX.Direct3D9.dll
-C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp\bin\Release\clipper_library.dll
-C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp\bin\Release\LeagueSharp.xml
-C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp\obj\Debug\KarthusSharp.csprojResolveAssemblyReference.cache
-C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp\obj\Debug\KarthusSharp.exe
-C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp\obj\Debug\KarthusSharp.pdb
+C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp Edited\bin\Release\KarthusSharp.exe.config
+C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp Edited\bin\Release\KarthusSharp.exe
+C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp Edited\bin\Release\KarthusSharp.pdb
+C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp Edited\bin\Release\LeagueSharp.Common.dll
+C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp Edited\bin\Release\LeagueSharp.dll
+C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp Edited\bin\Release\SharpDX.dll
+C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp Edited\bin\Release\SharpDX.Direct3D9.dll
+C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp Edited\bin\Release\clipper_library.dll
+C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp Edited\bin\Release\LeagueSharp.xml
+C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp Edited\obj\Debug\KarthusSharp.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp Edited\obj\Debug\KarthusSharp.exe
+C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\KarthusSharp Edited\obj\Debug\KarthusSharp.pdb
