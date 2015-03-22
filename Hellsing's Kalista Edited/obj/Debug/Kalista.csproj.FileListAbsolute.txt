@@ -1,1 +1,2 @@
 C:\Program Files (x86)\EasyPHP-14.1\data\localweb\ProjectsPHP\...Other Languages\C#\Kalista\bin\Release\Kalista.exe.config
+C:\Users\LEKA\Documents\GitHub\LeagueSharp\Hellsing's Kalista Edited\bin\Release\Kalista.exe.config

@@ -103,6 +103,8 @@ namespace Kalista
             ProcessLink("drawRangeEsmall", subMenu.AddLinkedCircle("E range (leaving)", false, Color.FromArgb(150, Color.DarkRed), SpellManager.E.Range - 200));
             ProcessLink("drawRangeEactual", subMenu.AddLinkedCircle("E range (actual)", true, Color.FromArgb(150, Color.DarkRed), SpellManager.E.Range));
             ProcessLink("drawRangeR", subMenu.AddLinkedCircle("R range", false, Color.FromArgb(150, Color.Red), SpellManager.R.Range));
+            // QHitChance
+            _menu.MainMenu.AddStringList( "QHitChance", new[] { "Low", "Medium", "High", "Very High" }, 3 );
         }
     }
 }
