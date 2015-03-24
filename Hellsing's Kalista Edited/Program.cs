@@ -17,10 +17,10 @@ namespace Kalista
             // Clear console from previous errors
             Utils.ClearConsole();
 
-            CustomEvents.Game.OnLoad += Game_OnLoad;
+            CustomEvents.Game.OnGameLoad += Game_OnGameLoad;
         }
 
-        private static void Game_OnLoad(EventArgs args)
+        private static void Game_OnGameLoad(EventArgs args)
         {
             // Validate Champion
             if (player.ChampionName != CHAMP_NAME)
