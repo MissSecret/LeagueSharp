@@ -17,7 +17,7 @@ namespace Kalista
             // Clear console from previous errors
             Utils.ClearConsole();
 
-            CustomEvents.Game.OnLoad += Game_OnLoad;
+            CustomEvents.Game.OnGameLoad += Game_OnLoad;
         }
 
         private static void Game_OnLoad(EventArgs args)
