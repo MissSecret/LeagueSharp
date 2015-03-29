@@ -1,6 +1,5 @@
 using System;
-
-using LeagueSharp;
+using LeagueSharp
 using LeagueSharp.Common;
 
 using Color = System.Drawing.Color;
@@ -10,7 +9,7 @@ namespace Kalista
     public class Program
     {
         public const string CHAMP_NAME = "Kalista";
-        private static Obj_AI_Hero player = ObjectManager.Player;
+        private static Obj_AI_Hero MyHero = ObjectManager.MyHero;
 
         public static void Main(string[] args)
         {
@@ -23,7 +22,7 @@ namespace Kalista
         private static void Game_OnLoad(EventArgs args)
         {
             // Validate Champion
-            if (player.ChampionName != CHAMP_NAME)
+            if (MyHero.ChampionName != CHAMP_NAME)
                 return;
 
             // Initialize classes
@@ -108,7 +107,7 @@ namespace Kalista
         private static void Spellbook_OnCastSpell(Spellbook sender, SpellbookCastSpellEventArgs args)
         {
             // Avoid stupid Q casts while jumping in mid air!
-            if (sender.Owner.IsMe && args.Slot == SpellSlot.Q && player.IsDashing())
+            if (sender.Owner.IsMe && args.Slot == SpellSlot.Q && MyHero.IsDashing())
             {
                 // Don't process the packet since we are jumping!
                 args.Process = false;
@@ -121,14 +120,14 @@ namespace Kalista
             foreach (var entry in Config.CircleLinks)
             {
                 if (entry.Value.Value.Active && entry.Key != "drawDamageE")
-                    Render.Circle.DrawCircle(player.Position, entry.Value.Value.Radius, entry.Value.Value.Color);
+                    Render.Circle.DrawCircle(MyHero.Position, entry.Value.Value.Radius, entry.Value.Value.Color);
             }
 
             // E damage on healthbar
             CustomDamageIndicator.DrawingColor = Config.CircleLinks["drawDamageE"].Value.Color;
             CustomDamageIndicator.Enabled = Config.CircleLinks["drawDamageE"].Value.Active;
 
-            // Flee position the player moves to
+            // Flee position the MyHero moves to
             if (ActiveModes.fleeTargetPosition.HasValue)
                 Render.Circle.DrawCircle(ActiveModes.fleeTargetPosition.Value, 50, ActiveModes.wallJumpPossible ? Color.Green : SpellManager.Q.IsReady() ? Color.Red : Color.Teal, 10);
 
