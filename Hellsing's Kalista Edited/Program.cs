@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 using LeagueSharp;
 using LeagueSharp.Common;
@@ -10,7 +10,7 @@ namespace Kalista
     public class Program
     {
         public const string CHAMP_NAME = "Kalista";
-        private static Obj_AI_Hero player = ObjectManager.Player;
+        private static Obj_AI_Hero MyHero = ObjectManager.Player;
 
         public static void Main(string[] args)
         {
@@ -23,7 +23,7 @@ namespace Kalista
         private static void Game_OnLoad(EventArgs args)
         {
             // Validate Champion
-            if (player.ChampionName != CHAMP_NAME)
+            if (MyHero.ChampionName != CHAMP_NAME)
                 return;
 
             // Initialize classes
