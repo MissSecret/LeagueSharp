@@ -9,7 +9,7 @@ namespace Kalista
     public class Program
     {
         public const string CHAMP_NAME = "Kalista";
-        private static Obj_AI_Hero MyHero = ObjectManager.player;
+        private static Obj_AI_Hero MyHero = ObjectManager.Player;
 
         public static void Main(string[] args)
         {
