@@ -1,5 +1,5 @@
 using System;
-using LeagueSharp
+using LeagueSharp;
 using LeagueSharp.Common;
 
 using Color = System.Drawing.Color;
@@ -16,10 +16,10 @@ namespace Kalista
             // Clear console from previous errors
             Utils.ClearConsole();
 
-            CustomEvents.Game.OnGameLoad += Game_OnLoad;
+            CustomEvents.Game.OnGameLoad += Game_OnGameLoad;
         }
 
-        private static void Game_OnLoad(EventArgs args)
+        private static void Game_OnGameLoad(EventArgs args)
         {
             // Validate Champion
             if (player.ChampionName != CHAMP_NAME)
